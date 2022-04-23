@@ -18,7 +18,7 @@
         <meta name="twitter:card" content="summary_large_image" /> <!-- to have large image post format in Twitter -->
 
         <!-- Webpage Title -->
-        <title>Tha Developer</title>
+        <title>Pavo Webpage Title</title>
 
         <!-- Styles -->
         <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -42,8 +42,8 @@
                 <!-- <a class="text-gray-800 font-semibold text-3xl leading-4 no-underline page-scroll" href="index.html">Pavo</a> -->
 
                 <!-- Image Logo -->
-                <a class="inline-block mr-4 py-0.5 text-xl text-white whitespace-nowrap hover:no-underline focus:no-underline" href="index.html">
-                    CHALUNTORN
+                <a class="inline-block mr-4 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline" href="index.html">
+                    <img src="images/logo.svg" alt="alternative" class="h-8" />
                 </a>
 
                 <button class="background-transparent rounded text-xl leading-none hover:no-underline focus:no-underline lg:hidden lg:text-gray-400" type="button" data-toggle="offcanvas">
@@ -53,79 +53,69 @@
                 <div class="navbar-collapse offcanvas-collapse lg:flex lg:flex-grow lg:items-center" id="navbarsExampleDefault">
                     <ul class="pl-0 mt-3 mb-2 ml-auto flex flex-col list-none lg:mt-0 lg:mb-0 lg:flex-row">
                         <li>
-                            <a class="nav-link page-scroll active" href="#header">HOME <span class="sr-only">(current)</span></a>
+                            <a class="nav-link page-scroll active" href="#header">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li>
-                            <a class="nav-link page-scroll" href="#features">PROFILE</a>
+                            <a class="nav-link page-scroll" href="#features">Features</a>
                         </li>
                         <li>
-                            <a class="nav-link page-scroll" href="#details">ABILITY</a>
+                            <a class="nav-link page-scroll" href="#details">Details</a>
                         </li>
                         <li>
-                            <a class="nav-link page-scroll" href="#pricing">CONTACT</a>
+                            <a class="nav-link page-scroll" href="#pricing">Pricing</a>
                         </li>
+                        <li class="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Drop</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                <a class="dropdown-item page-scroll" href="article.html">Article Details</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item page-scroll" href="terms.html">Terms Conditions</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item page-scroll" href="privacy.html">Privacy Policy</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="nav-link page-scroll" href="#download">Download</a>
+                        </li>
+                    </ul>
+                    <span class="block lg:ml-3.5">
+                        <a class="no-underline" href="#your-link">
+                            <i class="fab fa-apple text-indigo-600 hover:text-pink-500 text-xl transition-all duration-200 mr-1.5"></i>
+                        </a>
+                        <a class="no-underline" href="#your-link">
+                            <i class="fab fa-android text-indigo-600 hover:text-pink-500 text-xl transition-all duration-200"></i>
+                        </a>
+                    </span>
                 </div> <!-- end of navbar-collapse -->
             </div> <!-- end of container -->
         </nav> <!-- end of navbar -->
         <!-- end of navigation -->
 
         <!-- Header -->
-        <header id="header" class="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32 ">
-            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-3 lg:gap-x-5">
-                
-                <div class="mb-16 ">
-                    <h1 class="h2-large mb-5 text-white">IF YOUR VIEW THIS SITE MAYBE 
-                        MAYBE YOU KNOW ABOUT ME BETTER 😎</h1>
-                    <a class="btn-solid-lg" href="#your-link">🔎  LEARN MORE ABOUT ME</a>
+        <header id="header" class="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32">
+            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
+                <div class="mb-16 lg:mt-32 xl:mt-40 xl:mr-12">
+                    <h1 class="h1-large mb-5">Team management mobile application</h1>
+                    <p class="p-large mb-8">Start getting things done together with your team based on Pavo's revolutionary team management features</p>
+                    <a class="btn-solid-lg" href="#your-link"><i class="fab fa-apple"></i>Download</a>
+                    <a class="btn-solid-lg secondary" href="#your-link"><i class="fab fa-google-play"></i>Download</a>
                 </div>
-                <div class=" col-span-2">
-                    <img class="inline" src="images/me/me2.png" alt="alternative" />
+                <div class="xl:text-right">
+                    <img class="inline" src="images/header-smartphone.png" alt="alternative" />
                 </div>
             </div> <!-- end of container -->
         </header> <!-- end of header -->
         <!-- end of header -->
 
 
-        <!-- PROFILE -->
-        <div class="container pt-12 px-4 sm:px-8 lg:grid lg:grid-cols-3 lg:gap-x-2">
-            <div class="mb-16 ">
-                <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-                    <div class="flex justify-end px-4 pt-7">
+        <!-- Introduction -->
+        <div class="pt-4 pb-14 text-center">
+            <div class="container px-4 sm:px-8 xl:px-4">
+                <p class="mb-4 text-gray-800 text-3xl leading-10 lg:max-w-5xl lg:mx-auto"> Team management mobile apps don’t get better than Pavo. It’s probably the best app in the world for this purpose. Don’t hesitate to give it a try today and you will fall in love with it</p>
+            </div> <!-- end of container -->
+        </div>
+        <!-- end of introduction -->
 
-                        <!-- Dropdown menu -->
-                        <div id="dropdown" class="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700">
-                            <ul class="py-1" aria-labelledby="dropdownButton">
-                            <li>
-                                <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Edit</a>
-                            </li>
-                            <li>
-                                <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Export Data</a>
-                            </li>
-                            <li>
-                                <a href="#" class="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Delete</a>
-                            </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="flex flex-col items-center pb-10">
-                        <img class="mb-3 w-24 h-24 rounded-full shadow-lg" src="images/me/profilesq.jpeg">
-                        <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">Chaluntorn Ketkaeo</h5>
-                        <span class="text-sm text-gray-500 dark:text-gray-400">Software Developer</span>
-
-                        <div class="grid grid-rows-4 gap-4 pt-4 ">
-                            <div> <a class="btn-solid-lg w-full text-center" href="#your-link">  Background</a></div>
-                            <div> <a class="btn-solid-lg w-full text-center" href="#your-link">  Education</a></div>
-                            <div> <a class="btn-solid-lg w-full text-center" href="#your-link">  Work Experience</a></div>
-                            <div>  <a class="btn-solid-lg w-full text-center" href="#your-link">  Interest</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class=" col-span-2">
-                
-            </div>
-        </div> <!-- end of container -->
-        <!-- end PROFILE -->
 
         <!-- Features -->
         <div id="features" class="cards-1">
